@@ -1,11 +1,6 @@
 # action.yml
 name: 'mabg'
 description: 'Marlin auto build generation with github action'
-inputs:
-  branch: # branch of Marlin repo to use
-    description: 'Marlin branch repo'
-    required: false
-    default: '2.0.x'
 runs:
   using: 'docker'
   image: 'Dockerfile'
