@@ -7,4 +7,4 @@ RUN pip install -U ${PIO_URL} \
 
 COPY bin/entrypoint.sh /bin/entrypoint.sh
 
-ENTRYPOINT ["/bin/entrypoint.sh"]
+ENTRYPOINT ["bash /bin/entrypoint.sh"]
