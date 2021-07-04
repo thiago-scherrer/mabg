@@ -1,5 +1,9 @@
 # mabg
 
+[![Test](https://github.com/thiago-scherrer/mabg/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/thiago-scherrer/mabg/actions/workflows/test.yml)
+
+[![Security check](https://github.com/thiago-scherrer/mabg/actions/workflows/security_scan.yml/badge.svg?branch=main)](https://github.com/thiago-scherrer/mabg/actions/workflows/security_scan.yml)
+
 Marlin auto build generation with github action
 
 ## why
