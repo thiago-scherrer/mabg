@@ -1,0 +1,13 @@
+name: Test
+
+on: [push]
+
+jobs:
+  test:
+    steps:
+      -
+        name: Checkout project
+        uses: actions/checkout@v2
+      -
+        name: Test
+        run: docker build . -t mabg
