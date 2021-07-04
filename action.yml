@@ -4,5 +4,3 @@ description: 'Marlin auto build generation with github action'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.branch }}
