@@ -33,7 +33,7 @@ jobs:
       uses: actions/checkout@v2
     -
       name: Marlin auto build generation
-      uses: thiago-scherrer/mabg@v1.3
+      uses: thiago-scherrer/mabg@v1.4
     -
       name: Upload firmware
       uses: actions/upload-artifact@v2
