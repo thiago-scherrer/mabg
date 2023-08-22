@@ -10,6 +10,11 @@ Marlin auto build generation with github action
 I use a rapyberry as my personal computer (yes) and compiling Marlin for my
 ender3 is tiring. So I created this action to help
 
+# References
+
+- [My platformio,ini, Configuration.h](https://github.com/thiago-scherrer/ender3_configs/tree/main/Marlin/skr_mini_e3_2.0)
+- [My custom build for my ender 3 skr mini](https://github.com/thiago-scherrer/Marlin)
+
 ## how to
 
 - Fork Marlin's Repository, make all the changes you need to this fork to make
@@ -52,14 +57,18 @@ compiled binary in your build artifacts:
 
 ![art](misc/get_art.png)
 
-## examples
+## tips
 
 - I keep my repo synced with marlin updates like this:
 
-```sh
-git pull upstream 2.0.x
+How to keep the Marlin fork updated?
 
-git push origin 2.0.x
+# Fetch the updates from the official repository
+```sh
+$ git pull upstream 2.0.x
 ```
 
-- [My custom build for my ender 3 skr mini](https://github.com/thiago-scherrer/Marlin)
+#Send the updates to your repository.
+```sh
+$git push origin 2.0.x
+```
