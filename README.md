@@ -59,8 +59,6 @@ compiled binary in your build artifacts:
 
 ## tips
 
-- I keep my repo synced with marlin updates like this:
-
 How to keep the Marlin fork updated?
 
 # Fetch the updates from the official repository
@@ -69,6 +67,7 @@ $ git pull upstream 2.0.x
 ```
 
 #Send the updates to your repository.
+
 ```sh
 $git push origin 2.0.x
 ```
